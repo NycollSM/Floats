@@ -4,11 +4,13 @@ ul{
      margin: 0;
     padding: 0;
 }
-
-//div padre primer float
-.container{
+@mixin general {
     width: 1200px;
     background: #d84737;
+}
+//div padre (container) float
+.container{
+   @include general;
 }
 li{
     width: 359px;
@@ -17,4 +19,25 @@ li{
     border: 1px solid white;
     color: antiquewhite;
     text-align: center;
+}
+//Segundo container
+.container2{
+    margin-top: 50px; 
+    @include general;
+}
+.container2 li {
+    margin: 10px 10px;
+    display: inline-block;
+}
+.a {
+    width: 48%;
+}
+.b {
+    width: 23%;
+}
+.c {
+    width: 73%;
+}
+.d {
+    width: 98%;
 }

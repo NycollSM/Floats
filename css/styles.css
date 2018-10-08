@@ -15,4 +15,25 @@ li {
   color: antiquewhite;
   text-align: center; }
 
+.container2 {
+  margin-top: 50px;
+  width: 1200px;
+  background: #d84737; }
+
+.container2 li {
+  margin: 10px 10px;
+  display: inline-block; }
+
+.a {
+  width: 48%; }
+
+.b {
+  width: 23%; }
+
+.c {
+  width: 73%; }
+
+.d {
+  width: 98%; }
+
 /*# sourceMappingURL=styles.css.map */
