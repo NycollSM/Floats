@@ -6,7 +6,8 @@ ul{
 }
 @mixin general {
     width: 1200px;
-    background: #d84737;
+    background: #d84737; 
+    margin-top: 50px;
 }
 //div padre (container) float
 .container{
@@ -22,7 +23,7 @@ li{
 }
 //Segundo container
 .container2{
-    margin-top: 50px; 
+    
     @include general;
 }
 .container2 li {
@@ -40,4 +41,30 @@ li{
 }
 .d {
     width: 98%;
+}
+
+// Tercer container
+.container3{
+    @include general;
+}
+.bb{
+    width: 22.8%;
+}
+.f{
+    margin-right: 52px;
+}
+.g {
+    float: left;
+    height: 60px;
+    width: 48%;
+}
+.h{
+    float: left;
+}
+.i{
+    float: right;
+}
+.k {
+    width: 72%;
+    
 }
